@@ -90,3 +90,8 @@ body {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
+
+hr {
+  margin-top: 1.5rem;
+  color: #d7d7d7;
+}
