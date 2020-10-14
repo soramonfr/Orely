@@ -11,10 +11,6 @@
   font-family: ;
 }
 
-.title {
-  text-transform: uppercase;
-}
-
 .div-img {
   grid-column: 2/11;
   grid-row: 1/2;
@@ -46,10 +42,10 @@
 
 .bluetag {
   background: #0eadbb;
-  color: antiquewhite;
+  color: white;
 }
 
 .redtag {
   background-color: #c12051;
-  color: antiquewhite;
+  color: white;
 }
