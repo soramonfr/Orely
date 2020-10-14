@@ -56,16 +56,21 @@
 }
 
 .bluetag-highlight {
-  display: inline-block;
-  background: #0eadbb;
+  display: inline;
+  background-color: #0eadbb;
   color: white;
   padding: 0.6rem;
-  grid-row: 2/4;
+  position: relative;
+  top: -2.2rem;
+  z-index: 1;
 }
 
 .redtag-highlight {
-  display: inline-block;
+  display: inline;
   background-color: #c12051;
   color: white;
   padding: 0.6rem;
+  position: relative;
+  top: -2.2rem;
+  z-index: 1;
 }
