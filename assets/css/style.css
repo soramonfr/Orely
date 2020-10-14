@@ -12,10 +12,12 @@ body {
 .container h1 {
   color: #0eadbb;
   text-transform: uppercase;
+  font-weight: lighter;
 }
 
 .container h2 {
   text-transform: uppercase;
+  font-weight: lighter;
 }
 
 .div-img {
