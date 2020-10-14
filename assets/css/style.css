@@ -32,6 +32,7 @@ body {
 
 .img-news {
   width: 100%;
+  height: auto;
 }
 
 .now {
@@ -67,28 +68,23 @@ body {
   text-transform: uppercase;
 }
 
-.bluetag-highlight {
-  display: inline;
-  background-color: #0eadbb;
-  color: white;
+.highlight {
   padding: 0.6rem;
   position: relative;
-  top: -2.1rem;
+  bottom: 2.1rem;
   z-index: 1;
   font-size: 0.8rem;
   text-transform: uppercase;
 }
 
-.redtag-highlight {
-  display: inline;
+.background-blue {
+  background-color: #0eadbb;
+  color: white;
+}
+
+.background-red {
   background-color: #c12051;
   color: white;
-  padding: 0.6rem;
-  position: relative;
-  top: -2.1rem;
-  z-index: 1;
-  font-size: 0.8rem;
-  text-transform: uppercase;
 }
 
 hr {
