@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  font-weight: lighter;
 }
 
 .container {
@@ -7,12 +8,15 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto;
   column-gap: 1em;
-  text-transform: uppercase;
 }
 
 .container h1 {
   color: #0eadbb;
-  font-family: ;
+  text-transform: uppercase;
+}
+
+.container h2 {
+  text-transform: uppercase;
 }
 
 .div-img {
@@ -50,6 +54,7 @@ body {
   color: white;
   padding: 0.6rem;
   font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 .redtag {
@@ -58,6 +63,7 @@ body {
   color: white;
   padding: 0.6rem;
   font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 .bluetag-highlight {
@@ -69,6 +75,7 @@ body {
   top: -2.1rem;
   z-index: 1;
   font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 .redtag-highlight {
@@ -80,4 +87,5 @@ body {
   top: -2.1rem;
   z-index: 1;
   font-size: 0.8rem;
+  text-transform: uppercase;
 }
