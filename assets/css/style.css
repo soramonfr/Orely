@@ -43,9 +43,12 @@
 .bluetag {
   background: #0eadbb;
   color: white;
+  padding: 0.6rem;
 }
 
 .redtag {
   background-color: #c12051;
   color: white;
+  padding: 0.6rem;
+  margin-bottom: 3rem;
 }
