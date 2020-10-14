@@ -41,14 +41,16 @@
 }
 
 .bluetag {
+  display: inline-block;
   background: #0eadbb;
   color: white;
   padding: 0.6rem;
+  grid-row: 2/4;
 }
 
 .redtag {
+  display: inline-block;
   background-color: #c12051;
   color: white;
   padding: 0.6rem;
-  margin-bottom: 3rem;
 }
